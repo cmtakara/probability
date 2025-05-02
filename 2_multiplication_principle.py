@@ -12,7 +12,7 @@ print('the total possible is ' + str(possible))
 
 print('how many sequences of k objects can be made from a collection of n objects - with no repeat choices?')
 print('for example, in a class of 15 students, the people in a 5 person group, and the order determines their role')
-print('the formula is n!/(k!(n-k)!)')
+print('the formula is n!/(n-k)!')
 print('THIS IS WITHOUT REPLACEMENT')
 
 collect2 = int(input('how many items in your collection?'))
